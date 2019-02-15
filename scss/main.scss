@@ -128,6 +128,25 @@ main {
   }
 }
 
+//Page compétences
+.competences{
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas:
+  'cp1'
+  'cp2'
+  'cp3'
+  'cp4'
+  'cp5'
+  'cp6';
+
+  .cp{
+    padding: 0.5rem;
+    background: lighten($primary-color, 5);
+    border: $secondary-color 3px solid;
+  }
+}
+
 // Page de contact
 .boxes{
   display: flex;

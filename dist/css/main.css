@@ -273,6 +273,15 @@ main {
     border-bottom: #2980b9 5px solid;
     background: #fbfcfc; }
 
+.competences {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: 'cp1' 'cp2' 'cp3' 'cp4' 'cp5' 'cp6'; }
+  .competences .cp {
+    padding: 0.5rem;
+    background: #fbfcfc;
+    border: #2980b9 3px solid; }
+
 .boxes {
   display: flex;
   flex-wrap: wrap;
