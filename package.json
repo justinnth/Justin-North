@@ -3,20 +3,22 @@
   "version": "1.0.0",
   "description": "Site personnel",
   "main": "index.js",
+  "homepage": "https://justinnth.github.io/Justin-North",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/justinnth/justinnth.github.io.git"
+    "url": "git+https://github.com/justinnth/justin-north.git"
   },
   "author": "Justin North",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/justinnth/justinnth.github.io/issues"
+    "url": "https://github.com/justinnth/justin-north/issues"
   },
-  "homepage": "https://github.com/justinnth/justinnth.github.io#readme",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0"
   }
 }
