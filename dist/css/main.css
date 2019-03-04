@@ -100,7 +100,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #34495e;
+    background: #ecf0f1;
     transition: all 0.5s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
@@ -133,13 +133,13 @@
     padding: 0;
     list-style: none;
     transform: translate3d(0, -100%, 0);
-    background: #dde4e6;
+    background: #575757;
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
     transform: translate3d(0, 100%, 0);
-    background: #ecf0f1;
+    background: #646464;
     transition: all 0.5s ease-out; }
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
@@ -162,7 +162,7 @@
     padding: 1rem 0;
     text-decoration: none;
     text-transform: uppercase;
-    color: #34495e;
+    color: #ecf0f1;
     font-size: 30px;
     font-weight: 300;
     transition: all 0.5s ease-out; }
@@ -187,12 +187,12 @@
 body {
   height: 100%;
   margin: 0;
-  color: #34495e;
-  background: #ecf0f1;
+  color: #ecf0f1;
+  background: #646464;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/background.jpg);
+    background: url(../img/DSC_1702.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img::after {
@@ -203,7 +203,7 @@ body {
       right: 0;
       width: 100%;
       height: 100%;
-      background: rgba(236, 240, 241, 0.9); }
+      background: rgba(100, 100, 100, 0.8); }
 
 h1,
 h2,
@@ -218,8 +218,7 @@ h3 {
   h2.sm-heading,
   h3.sm-heading {
     margin-bottom: 2rem;
-    padding: 0.2rem 1rem;
-    background: rgba(242, 245, 245, 0.5); }
+    padding: 0.2rem 1rem; }
 
 a {
   text-decoration: none;
@@ -240,7 +239,7 @@ main {
     margin-top: 1rem; }
     main .icons a {
       padding: 0.4rem;
-      color: #34495e; }
+      color: #ecf0f1; }
       main .icons a:hover {
         color: #2980b9;
         transition: all 0.5s ease-out; }
@@ -271,7 +270,7 @@ main {
   .about-info .job {
     padding: 0.5rem;
     border-bottom: #2980b9 5px solid;
-    background: #fbfcfc; }
+    background: #717171; }
 
 .competences {
   display: grid;
@@ -279,7 +278,7 @@ main {
   grid-template-areas: 'cp1' 'cp2' 'cp3' 'cp4' 'cp5' 'cp6'; }
   .competences .cp {
     padding: 0.5rem;
-    background: #fbfcfc;
+    background: #717171;
     border: #2980b9 3px solid; }
 
 .boxes {
@@ -305,8 +304,8 @@ main {
   height: 60px;
   padding: 1rem;
   text-align: center;
-  color: #34495e;
-  background: #cfd9db; }
+  color: #ecf0f1;
+  background: #4b4b4b; }
 
 @media screen and (max-width: 768px) {
   main {
