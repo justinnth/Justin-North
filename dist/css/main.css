@@ -116,7 +116,7 @@
   top: 0;
   visibility: hidden;
   width: 100%;
-  opacity: 0.9; }
+  opacity: 0.95; }
   .menu.show {
     visibility: visible; }
   .menu-branding, .menu-nav {
@@ -148,7 +148,7 @@
       height: 250px;
       border: solid 3px #2980b9;
       border-radius: 50%;
-      background: url("../img/portrait.jpg"); }
+      background: url("../img/IMG_0588.jpg"); }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
@@ -280,25 +280,6 @@ main {
     padding: 0.5rem;
     background: #717171;
     border: #2980b9 3px solid; }
-
-.boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1rem; }
-  .boxes div {
-    font-size: 2rem;
-    border: 3px #fff solid;
-    padding: 1.5rem 2.5rem;
-    margin-bottom: 3rem;
-    transition: all 0.5s ease-out; }
-    .boxes div:hover {
-      padding: 0.5rem 1.5rem;
-      background: #2980b9;
-      color: #34495e; }
-      .boxes div:hover span {
-        color: #34495e; }
 
 #main-footer {
   height: 60px;
